@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import Nav from "../nav/Nav"
 import workImg from '../../assets/illustration-working.svg'
+import { MainBtn } from "../ui/MainBtn"
 
 const HeaderContainer = styled.header`
 display: flex;
@@ -8,8 +9,7 @@ justify-content: center;
 flex-wrap: wrap;
 box-sizing: border-box;
 padding: 20px;
-font-family: Arial, Helvetica, sans-serif;
-
+margin-bottom: 100px;
 
     .section_header {
         flex-basis: 50%;
@@ -23,24 +23,9 @@ font-family: Arial, Helvetica, sans-serif;
         p {
             margin-top: 0;
             font-size: 30px;
-            color: hsl(0, 0%, 75%);
+            color: hsl(0, 0%, 60%);
         }
 
-        button {
-            padding: 10px 20px;
-            font-size: 30px;
-            background-color: hsl(180, 66%, 45%);
-            box-sizing: border-box;
-            color: #fff;
-            border: none;
-            border-radius: 27px;
-            border-color: transparent;
-        }
-    
-        button:hover {
-            cursor: pointer;
-            background-color: hsl(180, 66%, 65%);
-        }
     }
     .work-img {
         min-height:500px;
@@ -59,7 +44,7 @@ const Header = () => {
             <div className="section_header">
                 <h1>More than just shorter links</h1>
                 <p>Build your brands's recognition and get detailed insights on how yuor links are performing.</p>
-                <button>Get Started</button>
+                <MainBtn>Get Started</MainBtn>
             </div>
             <div className="work-img" />
         </HeaderContainer>

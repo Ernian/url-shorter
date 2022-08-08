@@ -28,7 +28,7 @@ font-family: Arial, Helvetica, sans-serif;
         margin-left: 10px;
         padding: 10px;
         text-decoration: none;
-        color: hsl(0, 0%, 75%);
+        color: hsl(0, 0%, 60%);
     }
 
     a:hover {
@@ -41,7 +41,7 @@ font-family: Arial, Helvetica, sans-serif;
         font-size: 18px;
         background-color: transparent;
         box-sizing: border-box;
-        color: hsl(0, 0%, 75%);
+        color: hsl(0, 0%, 60%);
         border: none;
         border-radius: 20px;
         border-color: transparent;
